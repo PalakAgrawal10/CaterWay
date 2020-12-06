@@ -1,0 +1,157 @@
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #ff4c68;
+  color: White;
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1,5;
+}
+h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 5% 15% 7% 15%;
+}
+.navbar{
+  padding: 0.75% 15%;
+}
+.navbar-brand{
+  font-family: 'Cuprum';
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.row{
+  padding-top: 8%;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.delivery-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+.fa-address-book{
+  color: white;
+}
+.fa-user-circle{
+  color: white;
+}
+.fa-cloud-download-alt{
+  color: white;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.food{
+  width: 40%;
+  border-radius: 50%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 0% 15% 2% 15%;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+    padding-top: 25px;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+#plan{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.cards:hover{
+  background-color: red;
+  opacity: 0.75;
+}
+.card-button{
+  background-color: rgba(208,35,35,0.15);
+  color: #ff4c68;
+  border: unset;
+  border-radius: 25px;
+  font-size: 18px;
+}
+.price{
+  color: red;
+  opacity: 0.7;
+}
+.card-header{
+  background-color: #ef8172;
+  width: 100%;
+  color: #fff;
+  font-size: 10px;
+  padding: 10px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 10px;
+}
+.card{
+  margin: 70px;
+}
