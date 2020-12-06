@@ -1,2 +1,1 @@
-# CaterWay
-A Food Site
+TinDog Starting Files
