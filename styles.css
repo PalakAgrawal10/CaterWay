@@ -68,7 +68,7 @@ p{
   color: #ef8172;
   margin-bottom: 1rem;
 }
-.fas:hover{
+.delivery-icon:hover{
   color: #ff4c68;
 }
 .fa-address-book{
@@ -153,5 +153,15 @@ p{
   border-top-right-radius: 10px;
 }
 .card{
-  margin: 70px;
+  margin: 15%;
+}
+@media (max-width: 991px) {
+  #plan{
+    text-align: center;
+    padding-top: 25px;
+  }
+  .last-card{
+    position: static;
+    margin: 0 33%;
+  }
 }
