@@ -155,7 +155,7 @@ p{
 .card{
   margin: 15%;
 }
-@media (max-width: 991px) {
+@media (max-width: 991px) and (min-width: 768px) {
   #plan{
     text-align: center;
     padding-top: 25px;
